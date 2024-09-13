@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 4, 2024, 10:49:43 AM
+    Author     : HUY
+*/
+/* The styles for the elements */
+
+/* Đặt các thuộc tính chung cho toàn trang */
+/* Đặt các thuộc tính chung cho toàn trang */
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 28, 2024, 11:11:47 AM
+    Author     : HUY
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1,h2{
+    color: steelblue;
+}
+label{
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+.lblInfo{
+    float:left;
+}
+input[type="text"],input[type="email"],input[type="date"]{
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br{
+    clear: both;
+}
+#submit{
+    margin-top: 0.5em;
+}

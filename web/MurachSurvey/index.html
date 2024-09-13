@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="../style/survey.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img src="../img/murachLogo.png" alt="Murach Logo" width="100">
+        <h1>Survey</h1>
+        <p>If you have a moment, we'd appreciate it, if you would fill out this survey</p>
+        <form action="/ProjectCaNhan/respond" method="post">
+            <h2>Your information</h2>
+            <input type="hidden" name="action" value="add">
+            <label class="lblInfo">First Name:</label>
+            <input type="text" name="firstName" required><br>
+            <label class="lblInfo">Last name:</label>
+            <input type="text" name="lastName" required><br>
+            <label class="lblInfo">Email:</label>
+            <input type="text" name="email" required><br>
+            <label class="lblInfo">Date of Birth:</label>
+            <input type="date" name="birth"><br>
+
+
+            <h2>How did you hear about us? </h2>
+            <input type="radio" name="heared" value="search engine" required>
+            <label>Search engine</label>
+            <input type="radio" name="heared" value="word of mouth" required>
+            <label>Word of mouth</label>
+            <input type="radio" name="heared" value="social media" required>
+            <label>Social media</label>
+            <input type="radio" name="heared" value="other" required>
+            <label>Other</label>
+
+
+            <h2>Would you like to receive announcements about new CDs and special offer? </h2>
+            <input type="checkbox" name="like" value="Yes, i'd like that">
+            <label>Yes, i'd like that</label><br>
+            <input type="checkbox" name="contact" value="Yes, please send me email announcement">
+            <label> Yes, please send me email announcement</label><br><br>
+            
+            <label>Please contact me by: </label>   
+            <select name="contactby">
+                <option value="email and postal">Email or postal mail</option>
+                <option value="email" selected>Email only</option>
+                <option value="postal">Postal mail only</option>
+            </select><br>
+            <input type="submit" value="Join now" id="submit">
+     </form>
+    </body>
+</html>

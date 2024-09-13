@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #ffcc99; /* Nền màu cam nhạt */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(255, 255, 0, 0.8), 0 0 100px rgba(255, 255, 0, 0.6);
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+}
+h1 {
+    color: steelblue;
+}
+p {
+    color: black;
+}
+.social-links a {
+    text-decoration: none;
+    color: steelblue;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.about_me a{
+    text-decoration: none;
+    color: steelblue;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.about_me a:hover {
+    text-decoration: underline; /* Loại bỏ gạch dưới */
+}
+.social-links p {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}

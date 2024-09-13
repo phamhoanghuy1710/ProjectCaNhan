@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Murach's  Java servlets and JSP</title>
+        <link rel="stylesheet" href="../style/emailList.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Join our email list</h1>
+        <p>join our email list, enter your name and email address below </p>
+        <form action="/ProjectCaNhan/emailList2" method="post">
+            <input type="hidden" name="action" value="add">
+            <label>Email:</label>
+            <input type="email" name="email"><br>
+            <label>First name:</label>
+            <input type="text" name="firstName"><br>
+            <label>Last name:</label>
+            <input type="text" name="lastName"><br>
+            <label>&nbsp;</label>
+            <input type="submit" value="Join now" id="submit"><br>
+        </form>
+    </body>
+</html>
